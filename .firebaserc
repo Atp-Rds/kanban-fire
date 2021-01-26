@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanbanfire-1fe28": {
+      "hosting": {
+        "kanban-fire": [
+          "kanbanfire-1fe28"
+        ]
+      }
+    }
+  }
+}
