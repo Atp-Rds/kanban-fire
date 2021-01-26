@@ -10,7 +10,7 @@ import { BehaviorSubject } from 'rxjs';
 
 const getObservable = (collection: AngularFirestoreCollection<Task>) => {
     const subject = new BehaviorSubject([]);
-    collection.valueChanges({ idFiled: 'id' }).subscribe((val: Task[]) => {
+    collection.valueChanges({ idField: 'id' }).subscribe((val: Task[]) => {
         subject.next(val)
     })
     return subject;
